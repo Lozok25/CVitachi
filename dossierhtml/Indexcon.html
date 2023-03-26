@@ -1,0 +1,145 @@
+<!-- Partie contact -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../ITACHIP.css">
+    <link rel="stylesheet" href="../dossiercss/contact.css">
+    <link rel="stylesheet" href="StyleSubmit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/f0b82e9e29.js" crossorigin="anonymous"></script>
+  </head>
+<header>
+    <ul class="navbar">
+       
+        <li><img src="../IMG/logoUchiwa.png" alt="logo"> </li>
+        <li><a href="../indexSp.html"> Info </a></li>
+        <li><a href="indexEri.html"> Expertise </a></li>
+        <li><a href="IndexMo.html"> References </a></li>
+        <li><a href="indexLo.html"> Education </a></li>
+        <li><a href="Indexcon.html">Contact</a></li>
+    </ul>
+    <div class="menu-burger"><i class="fa-solid fa-bars"></i>
+    </div>
+</header>
+
+<br><br>
+
+<div class="BG">
+    
+    
+    <!-- Partie Contact -->
+
+    
+<section class="contact">
+
+    <div class ="bandeau-konoha">
+      <img src="/IMG/KonohaBandhead.png">
+    </div>
+    <div id="Chicha" class="box-presentation-2">
+      <img src="/IMG/KunaiLeft.png"alt="kunai" width="200">
+      <h2 id="name-job">CONTACT</h2>
+      <img src="/IMG/KunaiRight.png"alt="kunai" width="200">
+    </div>
+  
+    <div class="box-presentation-1">
+        <h4>Merci d'avoir pris le temps de parcourir mon CV, je suis ouverte à toutes proposition de contrat et j'ai hâte de vous rencontrer au cours d'un entretien pour un éventuel recrutement</h4>
+    </div>
+  <div class="last-container">
+  
+      <div class="interview">
+          <h4>Formulaire de contact</h4>
+          
+          
+          <textarea id="story" name="story" rows="5" cols="33">
+          </textarea>
+      </div>
+  
+      <div class="send-me-a-message">
+          <h4>Send me a message</h4>
+          <form action="Submit.html">
+              <label>
+                Nom:
+                <input type="text" name="nom">
+            </label>
+            <br>
+            <label>
+                Prénom:
+                <input type="text" name="prenom">
+              </label>
+              <br>
+              <label>
+                  Email:
+                  <input type="email" name="email">
+              </label>
+              <br>
+              <button  type="submit">Envoyer</button>
+            </form>
+             
+  
+      </div>
+    </div>
+    
+    
+  </section>
+  
+  
+</main>
+
+  </section>
+  <footer class="footer-distributed">
+      <div class="footer-left">
+          
+          <figure> <img src="assets/img/LOGO_Couvreur_-_1.png" alt=""></figure>
+          
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+            <p>〒100-8994</p>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+ 81.45.46.47.48</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="#">itachi.Uchiwa@akatsuki.jp</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span><i class="fa-regular fa-copyright" style="color: #FFFFFF;"></i> AKATSUKI GANG </span>
+            
+        </p>
+        
+    </div>
+</footer>
+  
+<script>
+    const menuBurger = document.querySelector(".fa-solid.fa-bars");
+  const navBar = document.querySelector(".navbar");
+  menuBurger.addEventListener('click', () => {
+    if (navBar.style.display === 'none') {
+      navBar.style.display = "block";
+    } else {
+      navBar.style.display = "none";
+    }
+  
+  });
+  
+  // navBar.addEventListener('click', function() { this.style.display = 'none' })
+  
+           </script>
+      
+  
+    </div>
+  
+  
+  </html>

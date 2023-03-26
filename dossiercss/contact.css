@@ -1,0 +1,48 @@
+@media screen and (max-width: 768px){
+
+
+
+    .box-presentation-2 {
+        
+        height: 350px; 
+} 
+
+
+
+
+.box-presentation-1 h4 {
+
+    display: none;
+}
+
+
+
+
+
+.box-presentation-1 {
+    
+
+    display: none;
+}
+
+
+
+
+.BG {
+    width: 572px;
+    height: 956px;
+}
+
+
+.footer-distributed {
+    
+    width: 100%;
+    height: 37%;
+    
+}
+
+}
+
+
+
+

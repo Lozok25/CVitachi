@@ -1,0 +1,12 @@
+body {
+    background: #701818;
+}
+body p h1 {
+    color:white;
+}
+.Merci {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
